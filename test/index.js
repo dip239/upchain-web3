@@ -4,7 +4,10 @@ const Web3 = require('../lib')
 
 describe('test upchain web3 client', () => {
   it('should connect to a node', (done) => {
-    var web3 = new Web3('up', 'chain', 'testnet')
+    var web3 = new Web3('https://eth.chain.host/testnet', {
+      user: 'up',
+      password: 'chain'
+    })
     web3.eth.getBlock(0, (err, block) => {
       if (err) {
         return done(err)
