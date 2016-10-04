@@ -1,0 +1,27 @@
+{
+  "name": "upchain-web3",
+  "version": "0.0.1",
+  "description": "upchain web3 client",
+  "main": "index.js",
+  "dependencies": {
+    "btoa": "^1.1.2",
+    "web3": "^0.17.0-beta",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Upchain/upchain-web3.git"
+  },
+  "author": "Upchain GmbH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Upchain/upchain-web3/issues"
+  },
+  "homepage": "https://github.com/Upchain/upchain-web3#readme"
+}
