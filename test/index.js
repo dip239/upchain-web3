@@ -1,6 +1,6 @@
 'use strict'
 const expect = require('chai').expect
-const Web3 = require('../lib')
+const Web3 = require('../index')
 
 describe('test upchain web3 client', () => {
   it('should connect to a node', (done) => {
