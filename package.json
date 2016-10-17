@@ -23,7 +23,7 @@
     "webpack-dev-server": "^1.16.2"
   },
   "scripts": {
-    "test": "mocha \"./{,!(node_modules)/**/}*.test.js\"",
+    "test": "mocha \"./{,!(node_modules)/**/}*.test.js\""
   },
   "repository": {
     "type": "git",
