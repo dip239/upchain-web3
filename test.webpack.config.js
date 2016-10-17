@@ -2,7 +2,7 @@ const Webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   entry: [
-    'mocha\!./lib/client.test.js' // The mocha loader command pointing to the test root. Note the ! is escaped.
+    'mocha!./lib/client.test.js' // The mocha loader command pointing to the test root. Note the ! is escaped.
   ],
   output: {
     path: __dirname + '/client/test/',  // Path to where I want testBundle.js to be put
