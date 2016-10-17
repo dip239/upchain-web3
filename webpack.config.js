@@ -1,10 +1,11 @@
+const Webpack = require('webpack')
 module.exports = {
   entry: [
-    'mocha!./lib/client.test.js' // The mocha loader command pointing to the test root. Note the ! is escaped.
+    './index.js'
   ],
   output: {
-    path: __dirname + '/client/test/',  // Path to where I want testBundle.js to be put
-    filename: 'testBundle.js'
+    path: __dirname + '/build/',  // Path to where I want testBundle.js to be put
+    filename: 'bundle.js'
   },
   module: {
     loaders: [
