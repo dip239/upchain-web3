@@ -1,5 +1,5 @@
 {
-  "name": "upchain-web3",
+  "name": "@upchain/web3",
   "version": "0.0.1",
   "description": "upchain web3 client",
   "main": "index.js",
